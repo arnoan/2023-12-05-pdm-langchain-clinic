@@ -1,5 +1,10 @@
 .17:13
 - initialized git repo
 - set up local python environment
-- specifcy dependencies
-- 
+- specify dependencies
+- install dependencies
+
+- set up `.env.template` and `.env` files
+
+- store jupyter notebook as `.py` file for git compatibility
+** `jupyter nbconvert --to python --stdout jupyter.ipynb > jupyter_git_friendly.py`
