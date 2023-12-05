@@ -1,0 +1,5 @@
+.17:13
+- initialized git repo
+- set up local python environment
+- specifcy dependencies
+- 

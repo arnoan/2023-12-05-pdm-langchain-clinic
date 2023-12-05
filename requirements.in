@@ -1,0 +1,9 @@
+langchain
+pydantic>=1.0,<2.0 # for compatibility reasons
+
+# LLM
+openai
+
+# Helpers
+python-dotenv
+jupyter
