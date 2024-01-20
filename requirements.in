@@ -3,6 +3,7 @@ pydantic>=1.0,<2.0 # for compatibility reasons
 
 # LLM
 openai
+langchain-openai
 
 # Helpers
 python-dotenv
