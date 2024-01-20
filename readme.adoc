@@ -1,0 +1,26 @@
+= 2024-01-16, PDM Code Clinic on LangChain Part-2
+
+This repository contains the code covered in the code clinic as well as some additional commentary to make it easier to digest in a stand-alone manner.
+
+We mostly did live-coding together and explored the LangChain Expression Language (LCEL), as well as a simple implementation of Retrieval Augmented Generation (RAG).
+
+== Local Setup
+
+To run the code locally, follow these steps:
+
+. Clone this repository to the desired local folder
+. Ensure you have a suitable Python version (3.10 or higher) installed and accessible on your path (you can verify this via `python -V`).
+** Can use Conda/Miniforge or https://github.com/pyenv/pyenv[PyEnv] to bootstrap Python, if needed.
+
+. Create a virtual environment and activate it
+** `python -m venv venv --copies`
+** `python source venv/bin/activate`
+** `which pip`
+*** Sanity check -> Should display path to new venv
+
+. Install the dependencies via `pip install -r requirements.in`.
+. Ensure you have access to an OpenAI API key.
+. Copy the `.env.template` file to `.env` and fill in your OpenAI API key
+. Start a Jupyter Server (via `jupyter lab` or use PyCharm Professional or VSCode to open the Jupyter Notebook file)
+. Explore the code in `langchain-part2.ipynb`
+. Have fun and write some LLM apps in Python :-)
